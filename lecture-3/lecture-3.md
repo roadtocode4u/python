@@ -96,9 +96,48 @@ print(c)
 ```
 ## 🏠 HomeWork
 
->Write a program to print student information and use format function to inject variable.
+>1️⃣Write a program to print student information and use format function to inject variable.
 
-> Write a program to implement an arithmetic operators.
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+a= "vedika"
+b=19
+c=2003
+d=55
+
+print("Hello {} .your Age is {} .your DOB is {}. and your Roll Number is {}".format(a, b, c, d))
+  ```
+
+  </p>
+
+</details>
+
+>2️⃣Write a program to implement an arithmetic operators.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+a=113
+b=11
+print("Addition(±)        :-",a+b)
+print("Subtraction(-)     :-",a-b)
+print("Mulitiplication(*) :-",a*b)
+print("Division(\)        :-",a/b)
+print('modules(**)        :-',a**b) 
+print('Exponential(%)     :-',a%b)
+print('Floor Division(//) :-',a//b)
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 

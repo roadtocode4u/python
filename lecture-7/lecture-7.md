@@ -130,9 +130,55 @@ print(alphabets)
 
 ## 🏠 HomeWork
 
->🚁Write a program to implement deletion of items from list using four different methods. 
+>1️⃣Write a program to implement deletion of items from list using four different methods. 
 
->🛰️Write a program to implement sort the given list in ascending and descending order.
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+colour=["Red","Pink","Orange","Yellow","Green"]
+colour.remove("Pink")
+print(colour)       #Remove Method
+
+colour=["Red","Pink","Orange","Yellow","Green"]
+colour.pop(3)
+print(colour)       #Pop Method
+
+colour=["Red","Pink","Orange","Yellow","Green"]
+del colour[1]
+print(colour)       #Delete Method
+
+colour=["Red","Pink","Orange","Yellow","Green"]
+colour.clear()
+print(colour)       #Clear Method
+  ```
+
+  </p>
+
+</details>
+
+>2️⃣ Write a program to implement sort the given list in ascending and descending order.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+colour=["Red","Pink","Orange","Yellow","Green"]
+colour.sort()
+print(colour)       #Ascending order
+
+colour=["Red","Pink","Orange","Yellow","Green"]
+colour.sort(reverse=True)
+print(colour)       #descending order
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 

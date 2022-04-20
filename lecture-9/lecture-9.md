@@ -5,7 +5,7 @@
 
 # Lecture-9 Sets in Python
 
-## Tuple
+## Sets
 
 It Data type which Act like Mathmatical sets.
 { }= Define sets.
@@ -85,10 +85,75 @@ print(OnlyOneClassStudent)
 The symmetric_difference() method in Python for two elements StudentsList1 and StudentsList2 is used to return the set of elements contained in both StudentsList1 and StudentsList2 but not common in both of them.
 
 ## 🏠 HomeWork
->🚁Write a program to use Add(),Remove() function to Sets.
+>1️⃣Write a program to use Add(),Remove() function to Sets.
 
->🛰️Write a program to use 5 different operation on sets.
-## 🔗 Some Useful Links
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+ #Add() Function
+Colour={ "Red","Pink","Yellow"}
+print(Colour)
+Colour.add("Blue")
+print(Colour)  
+
+#Remove() Function
+Colour={ "Red","Pink","Yellow"}
+print(Colour)
+Colour.remove("Pink")
+print(Colour) 
+
+  ```
+
+  </p>
+
+</details>
+
+>2️⃣Write a program to use 5 different operation on sets.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+
+# union operation(1)
+Girls={ "Gita","Radha","Sangita","Priya"}
+Boys={"Omkar","Raj","Vaibhav","Sumit","Ganesh","Rohit"}
+Class =Girls.union(Boys) 
+print(Class)
+
+# intersection operation(2)
+Girls={ "Gita","Kiran","Sangita","Priya"}
+Boys={"Omkar","Kiran","Vaibhav","Sumit","Ganesh","Rohit"}
+Class =Girls.intersection(Boys) 
+print(Class) 
+
+# symmetric_difference operation(3)
+Girls={ "Gita","Kiran","Sangita","Priya"}
+Boys={"Omkar","Kiran","Vaibhav","Sumit","Ganesh","Rohit"}
+Class =Girls.symmetric_difference(Boys) 
+print(Class)
+
+# Discard operation(4)
+Boys={"Omkar","Kiran","Vaibhav","Sumit","Ganesh","Rohit"}
+Boys.discard(3)
+print(Boys)    
+
+ # add operation(5)
+Boys={"Omkar","Kiran","Vaibhav","Sumit","Ganesh","Rohit"}
+Boys.add("Rahul")
+print(Boys)   
+  ```
+
+  </p>
+
+</details>
+
+🔗 Some Useful Links
 
 ## 📖 References
 

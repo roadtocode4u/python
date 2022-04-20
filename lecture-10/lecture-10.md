@@ -133,9 +133,52 @@ phonebook.clear()
 print(phonebook)
 ```
 ## 🏠 HomeWork
->🚁Write a program to create a phonebook  dictionary and use lowercase function to convert all keys in lowercase.
+>1️⃣Write a program to create a phonebook  dictionary and use lowercase function to convert all keys in lowercase.
 
->🛰️Write a program to create a fruits dictionary and its meaning.
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+phonebook={
+    "Harshada":"8578571958",
+    "Prachi":"9093238098",
+    "Pranali":"9855893498",
+    "Prajkta":"4789848908",
+    "Vaishnavi":"4879448987",
+}
+name = input("Enter name to find number :").lower()
+mobile = phonebook.get(name)
+print("Name : {} \n mobile : {} :".format(name,mobile))
+
+  ```
+
+  </p>
+
+>2️⃣Write a program to create a fruits dictionary and its meaning.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+FruitNameToImage={
+    "apple":"🍎",
+    "banana":"🍌",
+    "cherry":"🍒",
+    "grapes":"🍇",
+    "orange":"🍊"
+}
+fruitkey=input("Enter fruit name :")
+Image=FruitNameToImage.get(fruitkey)
+print("{} looks like {} " .format(fruitkey,Image))
+
+  ```
+
+  </p>
+
 ## 🔗 Some Useful Links
 
 ## 📖 References

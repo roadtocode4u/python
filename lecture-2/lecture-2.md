@@ -66,9 +66,50 @@ print(val)
 
 ## 🏠 HomeWork
 
-> Write a program to declare variables and then store your own information in the variable and print in a formatted way.
+>1️⃣ Write a program to declare variables and then store your own information in the variable and print in a formatted way.
 
-> Write a program to find data type of three different variable.
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+Name='Vedika'
+Age=18
+Weight=50
+Clg_name="GP"
+Email_id="PQR123@gmail.com"
+Studied_at="Pune"
+print("Name:",Name)
+print("Age:",Age)
+print("Weight:",Weight)
+print("Email_id",Email_id)
+print("Studied_at",Clg_name)
+  ```
+
+  </p>
+
+</details>
+
+> 2️⃣ Write a program to find data type of three different variable.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+a="Vedika"
+b=10000
+c=10.222
+print("type of a:",type(a))
+print("type of b:",type(b))
+print("type of c:",type(c))
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 

@@ -48,7 +48,7 @@ Total Digits = 1
 
 **Example:**
 
->Write a program to reversed the Present Number.
+>1Write a program to reversed the Present Number.
 
 ```python
 num=int(input("Enter Any number :"))

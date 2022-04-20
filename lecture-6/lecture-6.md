@@ -92,9 +92,54 @@ print(sentence)
 
 ## 🏠 HomeWork
 
->Write a program to implement upper(), lower(), strip() and replace() function on given string.
+>1️⃣Write a program to implement upper(), lower(), strip() and replace() function on given string.
 
->Write a program to implement escape character to use single quote and double quote in the same string
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+# Upper
+name="Vedika"
+newString=name.upper()
+print(newString)
+
+# Lower
+name="VEDIKA"
+newString=name.lower()
+print(newString)
+
+#Strip 
+name1="Vedika"
+name2="Vaibhavi "
+print(name1)
+print(name2.strip()) 
+
+#repalce
+name="road to code"
+newString=name.replace("o","#")
+print(newString)
+  ```
+
+  </p>
+
+</details>
+
+>2️⃣Write a program to implement escape character to use single quote and double quote in the same string.
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+sentence="I\'m Good .She said , How Are You ?"
+print(sentence)   #Escape Character
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 

@@ -35,7 +35,22 @@ print("Hii \n Good Evening \n Welcome To Python Programming!!")
 
 ## 🏠 HomeWork
 
-> Write a program to use `print()` function to print your name, college name and about information. Also use `\n` (newline character) to separate lines.
+>1️⃣ Write a program to use `print()` function to print your name, college name and about information. Also use `\n` (newline character) to separate lines.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+print("Name:\nVedika Bhujabal ")
+print("college name:\nSSMP")
+print("Village Name:\nPune")
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 

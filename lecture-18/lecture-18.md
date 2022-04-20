@@ -118,13 +118,32 @@ print(b)
 >20
 
 ## 🏠 HomeWork
->  Write a program to find simple interest using function all cases .
+> 1️⃣ Write a program to find simple interest using function all cases .
 
 💡 HINT : Simple Interest = (P x T x R)/100  
            Where,    
               P is the principle amount    
               T is the time and   
               R is the rate  
+
+  <details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+ def cal_si():              #No argument no return
+  p=int(input("Enter Principle :"))
+  r=int(input("Enter Rate :"))
+  t=int(input("Enter Time :"))
+  si=p*r*t/100
+  print(si)
+cal_si()
+  ```
+
+  </p>
+
+</details>
               
 ## 🔗 Some Useful Links
 

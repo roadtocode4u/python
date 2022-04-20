@@ -57,10 +57,53 @@ c = a + b
 print(c)
 ```
 ## 🏠 HomeWork
->🚁Write a program to change value touple to using extra overhead work.
+> 1️⃣Write a program to change value touple to using extra overhead work.
 
->🛰️Write a program to use function index,count and also perform concatenation of two tuple.
-## 🔗 Some Useful Links
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+Colour=('Red','Blue','pink','Orange','Yellow')
+ListColour=list(Colour)
+ListColour[0]='Green'
+Colour=tuple(ListColour)
+print(Colour)    #change value of tuple
+  ```
+
+  </p>
+
+</details>
+
+>2️⃣ Write a program to use function index,count and also perform concatenation of two tuple.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+#Index Function
+Colour=('Red','Blue','pink','Orange','Yellow')
+print(Colour.index("pink"))  
+
+#Count Function
+Colour=('Red','Blue','pink','Orange','Yellow')
+print(Colour.count("Yellow"))  
+
+ #Concatenation of String
+Name= "Mahatma"
+Surname="  Gandhi" 
+Full_Name = Name + Surname
+print(Full_Name)    
+  ```
+
+  </p>
+
+</details>
+
+ 🔗 Some Useful Links
 
 ## 📖 References
 

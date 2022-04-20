@@ -58,9 +58,25 @@ print("sum of {} and {} is {}".format(val1,val2,sum))
 
 ## 🏠 HomeWork
 
->Write a program to calculate bill when `rate` and `quantity` is given by user.
+>1️⃣Write a program to calculate bill when `rate` and `quantity` is given by user.
 
 💡 HINT: use formula `bill` = `rate` * `quantity`, take input for `rate` and `quantity` from user.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+val1=(input("Enter Rate:"))
+val2=(input("Enter quantity:"))
+bill=int(val1)*int(var2)
+print("sum of {} and {} is {}".format(val1,val2,bill))
+  ```
+
+  </p>
+
+</details>
 
 ## 🔗 Some Useful Links
 
