@@ -3,7 +3,7 @@
   <img  src="./../assets/header.png?" />
 </p>
 
-# Lecture-15 While-loop,Practice Questions in Python
+# Lecture-17 While-loop,Practice Questions in Python
 
 ## While-loop
 

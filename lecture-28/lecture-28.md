@@ -3,150 +3,42 @@
   <img  src="./../assets/header.png" />
 </p>
 
-# Lecture-23 Inheritance in Python
+# Lecture-29 TKinter UI for addition of two numbers
 
-## Inheritance=
-Inheritance means deriving properties of one class into another class.
-
-The class whose properties are being derived is called as **Parent Class** or **Super Class** or **Base class** . And class which derives the properties of base class is called as **Child Class** or **Sub Class** or **Derived Class**.
-
-**Syntax :**
-```python
-class BaseClass:
-    .....
-    .....
-class DerivedClass(BaseClass):
-    .....
-    .....
-```
-
-## Types of Inheritance
-
-* Single Inheritance
-* Multilevel Inheritance
-* Multiple Inheritance
-* Hierarchical Inheritance
-
-## Single Inheritance
-
-Single inheritance means,when a derived class derives one base class.
-
-![Single Inheritance](single_inheritance.png)
 
 **💻 Example :**
 ```python
-class A:
-  def showA(self):
-    print("I am showA")
-class B(A):
-  def showB(self):
-    print(" I am showB")
+from tkinter import *
+from functools import partial
 
-obj=B()
-obj.showA()
+def fun (a,b,l1):
+    sum=int(a.get())+ int(b.get())
+    l1.config(text="Result: %d"%sum)
+
+top=Tk()
+top.geometry("800x500")
+
+a=StringVar()
+b=StringVar()
+
+e1=Entry(top,textvariable=a).place(x=100,y=50)
+e2=Entry(top,textvariable=b).place(x=100,y=100)
+
+l1=Label(top)
+l1.place(x=100,y=150)
+
+fun=partial(fun,a,b,l1)
+b1=Button(top,text="Check Values",command=fun).place(x=100,y=200)
+
+
+top.mainloop()
+
 ```
 
 **⚙️ Output:**
->I am showA
+> ![Output](imgoutput.png)
 
-## Multilevel Inheritance
 
-Multilevel Inheritance means When a derived class become base class of another class .
-
-![Multilevel Inheritance](Multilevel-inheritance.png)
-
-**💻 Example :**
-```python
-class A:
-  def showA(self):
-    print("This is show A")
-
-class B(A):
-  def showB(self):
-    print("This is show B")
-
-class C(B):
-  def showC(self):
-    print("This is show C")
-
-obj=C()
-obj.showA()
-obj.showB()
-obj.showC()
-```
-**⚙️ Output:**
->This is show A   
-This is show B   
-This is show C
-
-## Multiple Inheritance
-
-When a class can be derived from more than one base class this type of inheritance is called multiple inheritance.
-
-![Multiple Inheritance](multiple-inheritance.png)
-
-**💻 Example :**
-```python
-class Mother:
-  def showMotherName(self):
-    print("Mother Name is ABC")
-
-class Father:
-  def shoWFatherName(self):
-    print("Father Name is XYZ")
-
-class child(Mother,Father):
-  def showChildName(self):
-    print("I am Child")
-
-obj=child()
-obj.shoWFatherName()
-obj.showMotherName()
-obj.showChildName()
-```
-**⚙️ Output:**
->Father Name is XYZ   
-Mother Name is ABC    
-I am Child
-
-## Hierarchical Inheritance
-
- When more than one derived classes are created from a single base this type of inheritance is called hierarchical inheritance.
-
- ![Hierarchical Inheritance](Hierarchical-inheritance.png)
-
- **💻 Example :**
-
-```python
-class Parent:
-  def showParent(self):
-    print("Mother Name : PQR")
-    print("Father Name : XYZ")
-
-class A(Parent):
-  def showName(self):
-    print("A")
-
-class B(Parent):
-  def showName(self):
-    print("B")
-
-objA=A()
-objA.showName()
-objA.showParent()
-
-objB=B()
-objB.showName()
-objB.showParent()
-```
-
-**⚙️ Output:**
->A   
-Mother Name : PQR    
-Father Name : XYZ   
-B   
-Mother Name : PQR     
-Father Name : XYZ  
 ## 🔗 Some Useful Links
 
 ## 📖 References

@@ -12,13 +12,13 @@
 
 💻🏆 Leeture 5 : Taking input for multiple values and String operations
 
-💻🏆 Leeture 6 :Comments, String Functions and Escape Characters
+💻🏆 Leeture 6 : Comments,String Functions and Escape Characters
 
 ## 🧿 Week 2: 
 
 **9 May to 14 May**
 
-💻🏆 Leeture 7 : ILists in python
+💻🏆 Leeture 7 : Lists in python
 
 💻🏆 Leeture 8 :Lists in python
 
@@ -83,7 +83,7 @@
 
 **6 June to 11 June**
 
-💻🏆 Some project in python and Revision s
+💻🏆 Some project in python and Revisions 
 
 * TKinter UI for addition of two numbers
 * Digital Clock in TKinter 

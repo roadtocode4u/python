@@ -3,7 +3,7 @@
   <img  src="./../assets/header.png?" />
 </p>
 
-# Lecture-18 Arbitrary Arguments, Default Arguments in Python
+# Lecture-19 Arbitrary Arguments, Default Arguments in Python
 
 >  Write a program to find simple interest using function all cases .
 

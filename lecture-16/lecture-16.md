@@ -3,7 +3,7 @@
   <img  src="./../assets/header.png?" />
 </p>
 
-# Lecture-15 ILoops On List,Tuples, Dictionary And While Loop in Python
+# Lecture-16 Loops On List,Tuples, Dictionary And While Loop in Python
 
 ## Python - else in Loop
 

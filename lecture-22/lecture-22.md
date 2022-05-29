@@ -3,7 +3,7 @@
   <img  src="./../assets/header.png?" />
 </p>
 
-# Lecture-22 Getter and Setter ,Four Pillars Methods in Python
+# Lecture-22 Getter and Setter, Four Pillars Methods in Python
 
 ## Getter
 

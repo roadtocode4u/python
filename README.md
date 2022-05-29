@@ -43,3 +43,15 @@
 ## 👉 [Lecture-21 OOPs Concept in Python](/lecture-21/lecture-21.md)
 
 ## 👉 [Lecture-22 Getter and Setter ,Four Pillars Methods in Python](/lecture-22/lecture-22.md)
+
+## 👉 [Lecture-23 Inheritance in Python](/lecture-23/lecture-23.md)
+
+## 👉 [Lecture-24 Encapsulation, Abstraction and Polymorphism in Python](/lecture-24/lecture-24.md)
+
+## 👉 [Lecture-25 Constructors and Destructors in Python](/lecture-25/lecture-25.md)
+
+## 👉 [Lecture-26 Introduction to TKinter in Python](/lecture-26/lecture-26.md)
+
+## 👉 [Lecture-27 TKinter in Python](/lecture-27/lecture-27.md)
+
+## 👉 [Lecture-28 TKinter UI for addition of two numbers](/lecture-28/lecture-28.md)
